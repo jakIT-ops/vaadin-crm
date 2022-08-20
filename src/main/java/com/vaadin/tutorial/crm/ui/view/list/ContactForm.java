@@ -1,4 +1,4 @@
-package com.vaadin.tutorial.crm.ui;
+package com.vaadin.tutorial.crm.ui.view.list;
 
 import com.vaadin.flow.component.ComponentEventListener;
 import com.vaadin.flow.component.Key;
@@ -20,7 +20,6 @@ import java.awt.event.ComponentEvent;
 import java.util.List;
 
 public class ContactForm extends FormLayout {
-
     TextField firstName = new TextField("First name");
     TextField lastName = new TextField("Last name");
     EmailField email = new EmailField("Email");
